@@ -8,10 +8,10 @@ You can use this script 2 ways.<br>
 
 <h3>1.  Getting from CDN</h3>
 Put following code in your Blog's HTML Theme. This will automaticaly add the TOC to all the post.
-<code>&lt;script src="toc.js"&gt;&lt;/script&gt;</code>
+<code>&lt;script src="https://rawcdn.githack.com/SSraman/Blogger-Table-Of-Contents/fdfe7fad99b5275e3105d0eda78713e5f6d58393/toc.js"&gt;&lt;/script&gt;</code>
 
 <h3>2. Using inline (Recommended)</h3>
-Use the following code just before <code>>&lt;/body&gt;</code> of your Blog's HTML Theme. This will automaticaly add the TOC to all the post.
+Use the following code just before <code>&lt;/body&gt;</code> of your Blog's HTML Theme. This will automaticaly add the TOC to all the post.
 
 For more information regarding how to use thi script inline, Refer This Page.
 
