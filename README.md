@@ -11,7 +11,7 @@ Put following code in your Blog's HTML Theme. This will automaticaly add the TOC
 <code>&lt;script src="https://rawcdn.githack.com/SSraman/Blogger-Table-Of-Contents/fdfe7fad99b5275e3105d0eda78713e5f6d58393/toc.js"&gt;&lt;/script&gt;</code>
 
 <h3>2. Using inline (Recommended)</h3>
-Use the following code just before <code>&lt;/body&gt;</code> of your Blog's HTML Theme.This will automaticaly add the TOC to all the post.<br>
+Use the following code just before <code>&lt;/data:post.body&gt;</code> of your Blog's HTML Theme.This will automaticaly add the TOC to all the post.<br>
 <code>
 &lt;b:if cond='data:blog.pageType == "item"'&gt;
 &lt;!-- all item pages --&gt;
@@ -21,7 +21,7 @@ var el=document.createElement("ol");el.id="m";var z=0,targetElem="h2";function i
 &lt;/script&gt;
 &lt;/b:if&gt;
 </code><br> 
-For more information regarding how to use thi script inline, Refer This Page.
+For more information regarding how to use thi script inline,<a href="https://css-magz.blogspot.com/2020/11/how-to-add-table-of-contents-in-blogger.html"> Refer This Page</a>.
 
 <h3>Troubleshooting</h3>
 Make sure you have enabled JavaScript in your browser. This script won't work for <code>&lt;noscript&gt;</code> users.
