@@ -11,7 +11,7 @@ Put following code in your Blog's HTML Theme. This will automaticaly add the TOC
 <code>&lt;script src="https://rawcdn.githack.com/SSraman/Blogger-Table-Of-Contents/fdfe7fad99b5275e3105d0eda78713e5f6d58393/toc.js"&gt;&lt;/script&gt;</code>
 
 <h3>2. Using inline (Recommended)</h3>
-Use the following code just before <code>&lt;/data:post.body&gt;</code> of your Blog's HTML Theme.This will automaticaly add the TOC to all the post.<br>
+Use the following code just after <code>&lt;/data:post.body&gt;</code> of your Blog's HTML Theme.This will automaticaly add the TOC to all the posts.<br>
 <code>
 &lt;b:if cond='data:blog.pageType == "item"'&gt;
 &lt;!-- all item pages --&gt;
